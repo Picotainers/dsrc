@@ -1,5 +1,5 @@
 # dsrc
-Small, distroless-when-possible container for `dsrc`.
+Small compatibility-focused container for `dsrc`.
 
 ## how to use
 ```bash
