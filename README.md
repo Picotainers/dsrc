@@ -1,7 +1,12 @@
 # dsrc
-Small compatibility-focused container for `dsrc`.
+Source-built container image for `dsrc`.
 
-## how to use
+## Quick Usage
+
 ```bash
-docker run --rm -v "$(pwd):/data" picotainers/dsrc:latest --help
+# Pull the image
+docker pull docker.io/picotainers/dsrc:latest
+
+# Run the tool
+docker run --rm -v "$(pwd):/data" docker.io/picotainers/dsrc:latest dsrc --help
 ```
