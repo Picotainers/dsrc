@@ -1,7 +1,7 @@
 FROM ubuntu:22.04 AS builder
 
 ARG DSRC_REPO=https://github.com/refresh-bio/DSRC.git
-ARG DSRC_REF=master
+ARG DSRC_REF=v2.0.2
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
